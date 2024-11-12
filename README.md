@@ -2,11 +2,13 @@
 <br><br><br>
 
 
-# MedMeshCNN
+# CadMeshCNN
 
-MedMeshCNN is an expansion of [MeshCNN](https://ranahanocka.github.io/MeshCNN/) proposed by  [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) et al. 
+CadMeshCNN is an expansion of [MeshCNN](https://ranahanocka.github.io/MeshCNN/) proposed by  [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) et al and [MedMeshCNN](https://github.com/LSnyd/MedMeshCNN) by [Lisa Schneider](https://github.com/LSnyd) et al.
 
 [MeshCNN](https://ranahanocka.github.io/MeshCNN/) is a general-purpose deep neural network for 3D triangular meshes, which can be used for tasks such as 3D shape classification or segmentation. This framework includes convolution, pooling and unpooling layers which are applied directly on the mesh edges.
+
+Under construction here...
 
 MedMeshCNN enables the use of [MeshCNN](https://ranahanocka.github.io/MeshCNN/) for medical surface meshes through an improved memory efficiency that allows to 
 to keep patient-specific properties and fine-grained patterns during segmentation. Furthermore, a weighted loss function improves the performance of MedMeshCNN on imbalanced datasets that are often caused by pathological appearances. 
